@@ -70,9 +70,9 @@
 .second_section,
 .third_section {
     width: 100%;
-    margin-top: 40px;
     align-items: center;
     background-color: white;
+    padding: 40px 0;
 }
 
 
@@ -98,4 +98,16 @@
 
 .debug .col-4 {
     background-color: pink;
+}
+
+footer {
+    background-color: rgb(31, 31, 32);
+    padding: 40px 0;
+}
+
+.footer_container {
+    height: 500px;
+    width: 50%;
+    margin: 0 auto;
+    background-color: green;
 }
