@@ -41,13 +41,14 @@
 
 .debug .section_row {
     height: 500px;
+    background-color: green;
 }
 
-.debug .col-8 {
+/* .debug .col-7 {
     background-color: rgb(83, 83, 228);
-}
+} */
 
-.debug .col-4 {
+.debug .col-5 {
     background-color: pink;
 }
 
@@ -93,6 +94,10 @@
 
 .col-4 {
     width: calc((100% / 12) * 4);
+}
+
+.col-5 {
+    width: calc((100% / 12) * 5);
     text-align: center;
 }
 
@@ -102,9 +107,13 @@
     padding-top: 10px;
 }
 
+.col-7 {
+    width: calc((100% / 12) * 7);
+    text-align: center;
+}
+
 .col-8 {
     width: calc((100% / 12) * 8);
-    text-align: center;
 }
 
 .col-9 {
@@ -123,10 +132,19 @@ a {
     padding-left: 20px;
 }
 
-h1,
+.banner_content>h1,
 p {
     padding-bottom: 20px;
     color: var(--di-white);
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+main>h1 {
+    color: var(--di-black);
+    font-size: xx-large;
 }
 
 button {
@@ -190,9 +208,13 @@ header {
 
 .section_row {
     display: flex;
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
-    background-color: green;
+
+}
+
+.section_text {
+    padding: 50px 50px 0 0;
 }
 
 .grey {
@@ -211,7 +233,7 @@ footer {
 }
 
 .footer_container {
-    width: 50%;
+    width: 70%;
     display: flex;
     margin: 20px auto;
     height: 410px;
@@ -239,6 +261,6 @@ hr {
     justify-content: space-between;
     padding: 10px 0;
     margin-top: 20px;
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
 }
