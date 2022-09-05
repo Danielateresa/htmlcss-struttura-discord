@@ -46,18 +46,15 @@
     background-color: pink;
 }
 
-.debug .footer_container {
-    width: 50%;
-    background-color: green;
-}
+
 
 .debug footer .col-3 {
     background-color: rgb(253, 111, 54);
 }
 
 .debug .col-3-foot {
-
-    height: 400px;
+    background-color: green;
+    height: 410px;
 }
 
 .debug footer>.col-3-foot {
@@ -67,7 +64,9 @@
 
 
 .debug .col-9 {
-    height: 400px;
+    height: 410px;
+    background-color: black;
+    border: 1px dotted lightgray;
 }
 
 .debug .footer_nav {
@@ -114,6 +113,7 @@
 [class^=col-] {
     padding: 5px;
 }
+
 
 
 .container {
@@ -169,8 +169,8 @@ footer {
 }
 
 .footer_container {
+    width: 50%;
     display: flex;
-    width: 100%;
     margin: 20px auto;
     height: 410px;
 }
@@ -181,6 +181,11 @@ footer .footer_row {
 
 .col-3-foot {
     border: 1px dotted lightgray;
+}
+
+footer .col-9 {
+    display: flex;
+    padding: 0;
 }
 
 hr {
