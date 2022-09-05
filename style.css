@@ -1,9 +1,14 @@
+/* PALETTE */
+
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* DEBUGGING */
 .debug header {
     background-color: aqua;
     padding: 10;
@@ -11,10 +16,12 @@
 }
 
 .debug .container {
-    width: 70%;
-    max-width: 1200px;
-    margin: 0 auto;
     background-color: rgb(255, 217, 0);
+    border: 1px solid;
+}
+
+.debug .container>div {
+    border: 1px dotted;
 }
 
 .debug .banner {
@@ -22,27 +29,29 @@
     height: 500px;
 }
 
-.banner {
-    display: flex;
-    align-items: center;
-}
-
-
 .debug .banner_content {
-    width: 50%;
-    margin: 0 auto;
     background-color: fuchsia;
     height: 400px;
 }
 
-.container {
-    display: flex;
+.debug .section_row {
+    height: 500px;
 }
 
-[class^=col-] {
-    padding: 5px;
+.debug .col-8 {
+    background-color: rgb(83, 83, 228);
 }
 
+.debug .col-4 {
+    background-color: pink;
+}
+
+.debug .footer_container {
+    width: 50%;
+    background-color: green;
+}
+
+/* COLUMNS */
 .col-3 {
     width: calc((100% / 12) * 3);
 }
@@ -62,6 +71,31 @@
     text-align: center;
 }
 
+
+[class^=col-] {
+    padding: 5px;
+}
+
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+.banner_content {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+}
+
 .login {
     text-align: right;
 }
@@ -75,11 +109,6 @@
     padding: 40px 0;
 }
 
-
-.debug .section_row {
-    height: 500px;
-}
-
 .section_row {
     display: flex;
     width: 50%;
@@ -91,23 +120,12 @@
     background-color: lightgray;
 }
 
-
-.debug .col-8 {
-    background-color: rgb(83, 83, 228);
-}
-
-.debug .col-4 {
-    background-color: pink;
-}
-
 footer {
     background-color: rgb(31, 31, 32);
     padding: 40px 0;
 }
 
 .footer_container {
-    height: 500px;
     width: 50%;
     margin: 0 auto;
-    background-color: green;
 }
