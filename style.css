@@ -6,5 +6,34 @@
 
 .debug header {
     background-color: aqua;
-    height: 50px;
+    padding: 10;
+    padding: 10px 0;
+}
+
+.debug .container {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(255, 217, 0);
+}
+
+.container {
+    display: flex;
+}
+
+[class^=col-] {
+    padding: 5px;
+}
+
+.col-3 {
+    width: calc((100% / 12) * 3);
+}
+
+.col-6 {
+    width: calc((100% / 12) * 6);
+    text-align: center;
+}
+
+.login {
+    text-align: right;
 }
