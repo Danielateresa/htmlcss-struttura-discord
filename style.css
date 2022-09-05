@@ -17,6 +17,24 @@
     background-color: rgb(255, 217, 0);
 }
 
+.debug .banner {
+    background-color: blue;
+    height: 500px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+
+.debug .banner_content {
+    width: 50%;
+    margin: 0 auto;
+    background-color: fuchsia;
+    height: 400px;
+}
+
 .container {
     display: flex;
 }
