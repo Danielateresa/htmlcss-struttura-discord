@@ -1,0 +1,244 @@
+/* PALETTE */
+:root {
+    --di-black: #000000;
+    --di-dark: #23272A;
+    --di-blue: #255EE9;
+    --di-lightblue: #7289DA;
+    --di-white: #FFFFFF;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* DEBUGGING */
+/* .debug header {
+    background-color: var(--di-blue)
+
+} */
+
+/* .debug .container {
+    background-color: rgb(255, 217, 0);
+    border: 1px solid;
+} */
+
+/* .debug .container>div {
+    border: 1px dotted;
+} */
+
+/* .debug .banner {
+    background-color: blue;
+    height: 600px;
+} */
+
+/* .debug .banner_content {
+    background-color: fuchsia;
+    height: 400px;
+} */
+
+.debug .section_row {
+    height: 500px;
+}
+
+.debug .col-8 {
+    background-color: rgb(83, 83, 228);
+}
+
+.debug .col-4 {
+    background-color: pink;
+}
+
+
+
+.debug footer .col-3 {
+    background-color: rgb(253, 111, 54);
+}
+
+.debug .col-3-foot {
+    background-color: green;
+    height: 410px;
+}
+
+.debug footer>.col-3-foot {
+    background-color: rgb(231, 212, 105);
+    height: 400px;
+}
+
+
+.debug .col-9 {
+    height: 410px;
+    background-color: black;
+    border: 1px dotted lightgray;
+}
+
+.debug .footer_nav {
+    background-color: aqua;
+}
+
+/* COLUMNS */
+.col-2 {
+    width: calc((100% / 12) * 2);
+}
+
+.col-3 {
+    width: calc((100% / 12) * 3);
+}
+
+.col-3-foot {
+    width: calc((100% / 12) * 3);
+}
+
+.col-4 {
+    width: calc((100% / 12) * 4);
+    text-align: center;
+}
+
+.col-6 {
+    width: calc((100% / 12) * 6);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.col-8 {
+    width: calc((100% / 12) * 8);
+    text-align: center;
+}
+
+.col-9 {
+    width: calc((100% / 12) * 9);
+}
+
+.col-10 {
+    width: calc((100% / 12) * 10);
+}
+
+
+a {
+    color: var(--di-white);
+    text-decoration: none;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+h1,
+p {
+    padding-bottom: 20px;
+    color: var(--di-white);
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+.accedi,
+.mac_download {
+    color: var(--di-black);
+    background-color: var(--di-white);
+}
+
+.open_browser {
+    background-color: var(--di-dark);
+    color: var(--di-white);
+    margin-left: 20px;
+}
+
+header {
+    padding: 10;
+    padding: 10px 0;
+    background-color: var(--di-blue);
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.login {
+    text-align: right;
+    padding-top: 5px;
+}
+
+.banner {
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.banner_content {
+    text-align: center;
+    width: 30%;
+    margin: 250px auto;
+}
+
+.first_section,
+.second_section,
+.third_section,
+.fourth_section {
+    width: 100%;
+    align-items: center;
+    background-color: white;
+    padding: 40px 0;
+}
+
+.section_row {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    background-color: green;
+}
+
+.grey {
+    background-color: lightgray;
+}
+
+.tecnology {
+    background-color: green;
+    height: 500px;
+}
+
+footer {
+    background-color: rgb(31, 31, 32);
+    padding-top: 10px;
+    ;
+}
+
+.footer_container {
+    width: 50%;
+    display: flex;
+    margin: 20px auto;
+    height: 410px;
+}
+
+footer .footer_row {
+    display: flex;
+}
+
+.col-3-foot {
+    border: 1px dotted lightgray;
+}
+
+footer .col-9 {
+    display: flex;
+    padding: 0;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+.footer_nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin-top: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
