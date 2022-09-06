@@ -182,20 +182,6 @@ header {
     padding-top: 5px;
 }
 
-.banner {
-    background-image: url(./img/jumbo.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-}
-
-.banner_content {
-    text-align: center;
-    width: 30%;
-    margin: 250px auto;
-}
-
 .first_section,
 .second_section,
 .third_section,
